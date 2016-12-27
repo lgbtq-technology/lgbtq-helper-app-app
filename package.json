@@ -1,0 +1,10 @@
+{
+  "name": "lgbtqHelperAppApp",
+  "private": true,
+  "devDependencies": {
+    "cordova": "^6.4.0"
+  },
+  "cordovaPlugins": [
+    "cordova-plugin-console"
+  ]
+}
