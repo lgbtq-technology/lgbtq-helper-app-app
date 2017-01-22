@@ -31,6 +31,18 @@ export default class LgbtqHelperAppApp extends Component {
   }
 }
 
+class Share extends Component {
+  render() {
+    return (
+      <View style={styles.container}>
+        <Text style={styles.instructions}>
+        BOOYA
+        </Text>
+      </View>
+    )
+  }
+}
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -51,3 +63,4 @@ const styles = StyleSheet.create({
 });
 
 AppRegistry.registerComponent('LgbtqHelperAppApp', () => LgbtqHelperAppApp);
+AppRegistry.registerComponent('MyShareEx', () => Share);
