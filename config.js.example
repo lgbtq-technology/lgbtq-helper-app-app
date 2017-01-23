@@ -1,0 +1,4 @@
+export default {
+    api: 'https://api.yayforqueers.net/',
+    client_id: '3275311328.17418201121'
+}
