@@ -19,5 +19,27 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true,
+        "experimentalObjectRestSpread": true
+      }
+    },
+    "rules": {
+      "react/jsx-uses-react": "error",
+      "react/jsx-uses-vars": "error",
+      "react/jsx-no-undef": "error",
+      "no-unused-vars": "error",
+      "valid-typeof": "error",
+      "no-undef": "error"
+    },
+    "plugins": [
+      "react",
+      "react-native"
+    ]
   }
 }
